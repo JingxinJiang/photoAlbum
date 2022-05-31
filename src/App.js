@@ -79,10 +79,10 @@ function App() {
     <section className="section">
       <div className="search">
         <form className="search-form" action="" method='post'>
-          <input type='text' className='form-input ' value={query} onChange={(e)=>{
+          <input type='text' className='form-input '   value={query} onChange={(e)=>{
             setquery(e.target.value);
           }}/>
-          <button type='submit' className='submit-btn' placeholder='input' onClick={handleClick}><FaSearch/></button>
+          <button type='submit' className='submit-btn' onClick={handleClick}><FaSearch/></button>
         </form>        
       </div>
       <div className="photos">

@@ -162,10 +162,13 @@ Stock Photos
   border-bottom: 3px solid var(--clr-grey-5);
 }
 .form-input {
+  
   color: var(--clr-grey-3);
 }
+
 .form-input::placeholder {
   color: var(--clr-grey-5);
+  
 }
 .photos {
   padding: 5rem 0;
